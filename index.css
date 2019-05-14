@@ -34,11 +34,17 @@ a {
 .font-weight-bold {
     font-weight: 700;
 }
-
+.text-center {
+    text-align: center;
+}
 .header {
     height: 50px;
     background-color: #20232a;
     color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .header-container {
     display:flex;
@@ -64,7 +70,14 @@ a {
 .body-content {
     margin-top:50px;
 }
-
+.jumbotron {
+    padding: 80px 0px;
+    background-size: cover;
+    background-position: 25% 30%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/20190219_190547.jpg);
+    background-attachment: scroll;
+    color: #ffffff;
+}
 .container {
     padding-right: 15px;
     padding-left: 15px;
